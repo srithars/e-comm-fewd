@@ -11,7 +11,7 @@ import Signup from "./components/Signup";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/e-comm-fewd">
       <Routes>
         <Route path="/" element={<Home />}/>  
         {/* <Route path="products" element={<Products />} />   */}
