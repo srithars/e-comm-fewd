@@ -11,7 +11,7 @@ import Signup from "./components/Signup";
 
 function App() {
   return (
-    <BrowserRouter basename="/e-comm-fewd">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />}/>  
         {/* <Route path="products" element={<Products />} />   */}
@@ -21,7 +21,7 @@ function App() {
         <Route path="signup" element={<Signup/>}/>
          
       </Routes>
-    </BrowserRouter>
+    <HashRouter>
   );
 }
 
