@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Home from "./components/Home";
 import Products from "./components/Products";
 import "./components/styles.css"
@@ -21,7 +22,7 @@ function App() {
         <Route path="signup" element={<Signup/>}/>
          
       </Routes>
-    <HashRouter>
+    </HashRouter>
   );
 }
 
